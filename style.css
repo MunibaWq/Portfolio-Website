@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Kufam;
+    src: url(Kufam-VariableFont_wght.ttf);
+   
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+
+    
+    background-color: #1D384E;
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+   
+    color: white;
+    padding: 2em;
+    position: sticky;
+
+    vertical-align: middle;
+
+  
+}
+
+#nav-a a {
+    color: lightgray;
+    text-decoration: none;
+    padding: 1em;
+
+    font-family: Kufam; 
+    font-size: 1em;
+    line-height: 1.5;
+
+}
+
+.videoContainer > video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+
+}
+  
+.videoContainer{
+  overflow: hidden;
+  background: var(--primary-color) 
+  
+}
+
+.content {
+    z-index: 999;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    padding: 20em;
+    padding-bottom: 0em;
+
+    font-family: Kufam; 
+    font-size: 1em;
+    line-height: 1.5;
+
+    color: lightgrey;
+}
+
+.btn {
+    display: inline-block;
+	padding: 10px 30px;
+	background: var(--primary-color);
+	color: lightgrey;
+	border-radius: 5px;
+	border: solid lightgrey 5px;
+	margin-top: 25px;
+    opacity: 0.7;
+    text-decoration: none;
+
+    font-family: Kufam; 
+    font-size: 1em;
+    line-height: 1.5;
+    
+
+}
+
