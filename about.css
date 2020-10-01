@@ -1,7 +1,35 @@
+html, body {
+    height:100%;
+} 
+
+body {
+    background-color: white;
+    background-image: url('images/about-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+
+/* 
+body {
+    background-image: url('images/about-unsplash.jpg');
+    background-size: cover;
+    height: 100%;
+
+    /* Center and scale the image nicely 
+    background-position: center;
+    background-repeat: no-repeat;
+    
+} */
+
+
+
 .about {
     display: flex;
     margin: 5vh;
-    
 }
 
 
@@ -35,7 +63,7 @@
     padding: 3vw;
     
   
-    background-color: #e9945f;
+    /* background-color: #e9945f; */
     /* background-color: #e6d5d0; */
 
     font-family: 'Baloo'; 
