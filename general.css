@@ -1,6 +1,16 @@
 @font-face {
-    font-family: Kufam;
-    src: url(Kufam-VariableFont_wght.ttf);
+    font-family: 'Baloo';
+    src:  url('fonts/BalooTammudu2-Regular.ttf');
+    font-style: normal;
+    font-weight: 400;
+   
+}
+
+@font-face {
+    font-family: 'Baloo';
+    src:  url('fonts/BalooTammudu2-Medium.ttf');
+    font-style: normal;
+    font-weight: 500;
    
 }
 
@@ -8,6 +18,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-weight: unset;
     
 }
 
@@ -47,7 +58,8 @@ nav {
     text-decoration: none;
     padding: 1em;
 
-    font-family: Kufam; 
+    font-family: 'Baloo'; 
+    font-weight: 400;
     font-size: 1em;
     line-height: 1.5;
 

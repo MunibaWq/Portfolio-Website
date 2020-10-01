@@ -15,7 +15,7 @@
 .column-left  h1{
 
     padding: .5vw;
-    font-family: Kufam; 
+    font-family: 'Baloo'; 
     font-size: 2vw;
     line-height: 2.5;
     color: #1D384E;
@@ -38,7 +38,7 @@
     background-color: #e9945f;
     /* background-color: #e6d5d0; */
 
-    font-family: Kufam; 
+    font-family: 'Baloo'; 
     font-size: 1.5vh;
     line-height: 1.5;
 }
